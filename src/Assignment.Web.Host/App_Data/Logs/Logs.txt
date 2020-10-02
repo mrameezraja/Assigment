@@ -1,0 +1,861 @@
+DEBUG 2020-10-02 16:53:50,688 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 16:53:50,914 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 16:53:50,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,929 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:50,936 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 16:53:51,097 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:53:51,097 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:53:51,097 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:53:51,097 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:53:51,534 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:53:52,245 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 16:53:52,275 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 16:53:52,284 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 16:53:52,288 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 16:53:52,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 16:53:52,439 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 16:53:52,541 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 16:53:52,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 16:53:52,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 16:53:52,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 16:53:52,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 16:53:52,586 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 16:53:52,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 16:53:52,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 16:53:52,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 16:53:52,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 16:53:55,616 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 16:53:56,052 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 16:53:56,147 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 16:53:56,305 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 16:53:58,912 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 16:53:59,803 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 16:53:59,809 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 891.7082ms
+INFO  2020-10-02 16:53:59,811 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 16:53:59,823 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2020-10-02 16:53:59,825 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3678.7631ms 302 
+INFO  2020-10-02 16:53:59,853 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 29.7124ms 301 
+INFO  2020-10-02 16:53:59,855 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 16:53:59,905 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 49.129ms 200 text/html;charset=utf-8
+INFO  2020-10-02 16:53:59,920 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2020-10-02 16:53:59,922 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2020-10-02 16:53:59,924 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-10-02 16:53:59,926 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2020-10-02 16:53:59,927 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-10-02 16:53:59,953 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'C:\Users\Rameez Raja\Downloads\Assignment\5.8.1\aspnet-core\src\Assignment.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2020-10-02 16:53:59,953 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2020-10-02 16:53:59,953 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2020-10-02 16:53:59,953 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'C:\Users\Rameez Raja\Downloads\Assignment\5.8.1\aspnet-core\src\Assignment.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2020-10-02 16:53:59,954 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 32.8038ms 200 application/javascript
+INFO  2020-10-02 16:53:59,956 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 31.5761ms 200 application/javascript
+INFO  2020-10-02 16:53:59,958 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2020-10-02 16:53:59,960 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.9105ms 200 application/javascript
+INFO  2020-10-02 16:53:59,961 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 41.9105ms 200 text/css
+INFO  2020-10-02 16:53:59,963 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.2358ms 200 application/javascript
+INFO  2020-10-02 16:54:00,321 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 16:54:00,349 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 16:54:00,371 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2020-10-02 16:54:00,374 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2020-10-02 16:54:00,376 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.0314ms 200 image/png
+INFO  2020-10-02 16:54:00,495 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:54:00,495 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:54:00,497 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:54:00,498 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:54:00,499 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 16:54:00,506 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 16:54:00,525 [14   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 16:54:00,598 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 88.5296ms
+INFO  2020-10-02 16:54:00,600 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 16:54:00,602 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 281.3973ms 200 application/json; charset=utf-8
+INFO  2020-10-02 16:54:00,632 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 282.6733ms 200 application/json;charset=utf-8
+INFO  2020-10-02 16:55:15,652 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Cows?farmId=A&dateTime=12-12-2020  
+INFO  2020-10-02 16:55:15,656 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:55:15,658 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:55:15,662 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:55:15,681 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Cows", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Get(System.String, System.DateTime) on controller Assignment.Controllers.CowsController (Assignment.Web.Core).
+INFO  2020-10-02 16:55:15,920 [6    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 16:55:15,927 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.CowsController.Get (Assignment.Web.Core) in 241.3608ms
+INFO  2020-10-02 16:55:15,928 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:55:15,930 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 278.1822ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 16:55:30,317 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 16:55:30,403 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 16:55:30,415 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,417 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:30,421 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 16:55:30,474 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:30,474 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:30,474 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:30,474 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:30,775 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:31,557 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 16:55:31,581 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 16:55:31,591 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 16:55:31,595 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 16:55:31,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 16:55:31,769 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 16:55:31,879 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 16:55:31,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 16:55:31,924 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 16:55:31,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 16:55:31,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 16:55:31,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 16:55:31,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 16:55:31,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 16:55:31,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 16:55:31,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+DEBUG 2020-10-02 16:55:52,355 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 16:55:52,436 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 16:55:52,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:52,459 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 16:55:52,510 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:52,510 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:52,510 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:52,510 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 16:55:52,818 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 16:55:53,506 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 16:55:53,528 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 16:55:53,537 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 16:55:53,541 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 16:55:53,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 16:55:53,696 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 16:55:53,786 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 16:55:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 16:55:53,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 16:55:53,828 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 16:56:00,948 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 16:56:01,153 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 16:56:01,219 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 16:56:01,286 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 16:56:03,940 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 16:56:04,788 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 16:56:04,794 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 849.5763ms
+INFO  2020-10-02 16:56:04,796 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 16:56:04,809 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3591.9918ms 302 
+INFO  2020-10-02 16:56:04,810 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 16:56:04,880 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.0788ms 200 text/html;charset=utf-8
+INFO  2020-10-02 16:56:05,032 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 16:56:05,067 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 16:56:05,160 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:56:05,160 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:56:05,166 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:56:05,166 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:56:05,168 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 16:56:05,175 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 16:56:05,198 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 16:56:05,241 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 63.2997ms
+INFO  2020-10-02 16:56:05,242 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 16:56:05,244 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 211.5541ms 200 application/json; charset=utf-8
+INFO  2020-10-02 16:56:05,269 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 201.3292ms 200 application/json;charset=utf-8
+INFO  2020-10-02 16:56:29,957 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Cows?farmId=A&dateTime=2020-10-02%2016%3A56%3A00.5096282  
+INFO  2020-10-02 16:56:29,960 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:56:29,963 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:56:29,966 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:56:29,983 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Cows", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Get(System.String, System.DateTime) on controller Assignment.Controllers.CowsController (Assignment.Web.Core).
+INFO  2020-10-02 16:56:30,227 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 16:56:30,231 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.CowsController.Get (Assignment.Web.Core) in 246.7079ms
+INFO  2020-10-02 16:56:30,232 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:56:30,234 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 276.4907ms 200 application/json; charset=utf-8
+INFO  2020-10-02 16:56:36,407 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Cows?farmId=A&dateTime=2020-10-01%2016%3A56%3A00.5096282  
+INFO  2020-10-02 16:56:36,410 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 16:56:36,412 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 16:56:36,414 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:56:36,421 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Get", controller = "Cows", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int32] Get(System.String, System.DateTime) on controller Assignment.Controllers.CowsController (Assignment.Web.Core).
+INFO  2020-10-02 16:56:36,439 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 16:56:36,441 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.CowsController.Get (Assignment.Web.Core) in 18.0812ms
+INFO  2020-10-02 16:56:36,442 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.CowsController.Get (Assignment.Web.Core)'
+INFO  2020-10-02 16:56:36,443 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 36.8023ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 17:18:47,388 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 17:18:47,439 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 17:18:47,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:47,458 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 17:18:47,514 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:18:47,514 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:18:47,514 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:18:47,514 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:18:47,800 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:18:48,468 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 17:18:48,491 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 17:18:48,500 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 17:18:48,503 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 17:18:48,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 17:18:48,659 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 17:18:48,748 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 17:18:48,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 17:18:48,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 17:18:48,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 17:18:48,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 17:18:48,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 17:18:48,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 17:18:48,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 17:18:48,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 17:18:48,792 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 17:18:57,148 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 17:18:57,354 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 17:18:57,409 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 17:18:57,480 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:19:00,062 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 17:19:00,990 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 17:19:00,996 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 929.0035ms
+INFO  2020-10-02 17:19:00,999 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:19:01,010 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3602.785ms 302 
+INFO  2020-10-02 17:19:01,012 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 17:19:01,081 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.9077ms 200 text/html;charset=utf-8
+INFO  2020-10-02 17:19:01,100 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-10-02 17:19:01,101 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-10-02 17:19:01,110 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-10-02 17:19:01,111 [15   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-10-02 17:19:01,115 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 14.7062ms 304 application/javascript
+INFO  2020-10-02 17:19:01,117 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.3903ms 304 application/javascript
+INFO  2020-10-02 17:19:01,160 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 17:19:01,193 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 17:19:01,283 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:19:01,283 [14   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:19:01,287 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:19:01,287 [14   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:19:01,289 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:19:01,296 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 17:19:01,319 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:19:01,364 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 66.4051ms
+INFO  2020-10-02 17:19:01,366 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:19:01,367 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 208.8816ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:19:01,394 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.6315ms 200 application/json;charset=utf-8
+INFO  2020-10-02 17:19:10,316 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:19:10,319 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:19:10,322 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:19:10,324 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:19:10,333 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:19:10,558 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:19:10,569 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 234.8608ms
+INFO  2020-10-02 17:19:10,571 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:19:10,574 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 258.2555ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 17:21:25,391 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 17:21:25,435 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 17:21:25,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:25,452 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 17:21:25,507 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:21:25,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:21:25,507 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:21:25,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:21:25,806 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:21:26,469 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 17:21:26,491 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 17:21:26,500 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 17:21:26,503 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 17:21:26,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 17:21:26,654 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 17:21:26,749 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 17:21:26,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 17:21:26,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 17:21:26,790 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 17:21:26,791 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 17:21:28,516 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 17:21:28,727 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 17:21:28,780 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 17:21:28,852 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:21:31,477 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 17:21:32,450 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 17:21:32,456 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 975.1138ms
+INFO  2020-10-02 17:21:32,459 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:21:32,471 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3693.66ms 302 
+INFO  2020-10-02 17:21:32,472 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 17:21:32,547 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.0335ms 200 text/html;charset=utf-8
+INFO  2020-10-02 17:21:32,629 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 17:21:32,657 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 17:21:32,753 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:21:32,753 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:21:32,759 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:21:32,759 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:21:32,761 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:21:32,768 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 17:21:32,788 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:21:32,832 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 62.1525ms
+INFO  2020-10-02 17:21:32,834 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:21:32,835 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 206.4145ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:21:32,859 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 201.0793ms 200 application/json;charset=utf-8
+INFO  2020-10-02 17:21:37,737 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:21:37,742 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:21:37,744 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:21:37,746 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:21:37,756 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:21:37,980 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:21:37,990 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 231.148ms
+INFO  2020-10-02 17:21:37,992 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:21:37,994 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 257.4022ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 17:22:39,482 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 17:22:39,528 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 17:22:39,540 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,541 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,542 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,543 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:39,545 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 17:22:39,607 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:22:39,607 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:22:39,607 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:22:39,607 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:22:39,917 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:22:40,670 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 17:22:40,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 17:22:40,701 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 17:22:40,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 17:22:40,708 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 17:22:40,871 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 17:22:40,963 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 17:22:41,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 17:22:41,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 17:22:41,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 17:22:41,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 17:22:42,914 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 17:22:43,135 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 17:22:43,190 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 17:22:43,262 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:22:46,134 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 17:22:47,082 [14   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 17:22:47,088 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 949.6371ms
+INFO  2020-10-02 17:22:47,091 [14   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:22:47,103 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3915.1217ms 302 
+INFO  2020-10-02 17:22:47,104 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 17:22:47,174 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.0834ms 200 text/html;charset=utf-8
+INFO  2020-10-02 17:22:47,245 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 17:22:47,283 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 17:22:47,374 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:22:47,374 [8    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:22:47,380 [8    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:22:47,380 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:22:47,382 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:22:47,389 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 17:22:47,411 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:22:47,455 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 64.2366ms
+INFO  2020-10-02 17:22:47,457 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:22:47,459 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 213.1905ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:22:47,486 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 202.01ms 200 application/json;charset=utf-8
+INFO  2020-10-02 17:22:52,828 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:22:52,833 [15   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:22:52,835 [15   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:22:52,838 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:22:52,847 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:22:53,068 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:22:53,077 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 228.5242ms
+INFO  2020-10-02 17:22:53,079 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:22:53,081 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 252.8984ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:23:28,827 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:23:28,830 [12   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:23:28,831 [12   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:23:28,834 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:23:28,839 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:23:28,856 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:23:28,859 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 18.4623ms
+INFO  2020-10-02 17:23:28,860 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:23:28,862 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.1074ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 17:23:40,004 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 17:23:40,049 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 17:23:40,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:40,066 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 17:23:40,118 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:23:40,118 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:23:40,118 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:23:40,118 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:23:40,411 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:23:41,101 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 17:23:41,123 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 17:23:41,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 17:23:41,136 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 17:23:41,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 17:23:41,294 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 17:23:41,391 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 17:23:41,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 17:23:41,429 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 17:23:41,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 17:23:41,433 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 17:23:41,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 17:23:41,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 17:23:41,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 17:23:41,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 17:23:41,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 17:23:43,219 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 17:23:43,430 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 17:23:43,481 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 17:23:43,549 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:23:46,158 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 17:23:47,060 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 17:23:47,067 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 902.7848ms
+INFO  2020-10-02 17:23:47,069 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:23:47,081 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3602.1875ms 302 
+INFO  2020-10-02 17:23:47,084 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 17:23:47,154 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 70.2822ms 200 text/html;charset=utf-8
+INFO  2020-10-02 17:23:47,225 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 17:23:47,260 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 17:23:47,348 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:23:47,348 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:23:47,354 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:23:47,354 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:23:47,356 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:23:47,362 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 17:23:47,381 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:23:47,425 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 61.3489ms
+INFO  2020-10-02 17:23:47,427 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:23:47,429 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.4695ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:23:47,460 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 199.1749ms 200 application/json;charset=utf-8
+INFO  2020-10-02 17:23:53,029 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:23:53,033 [13   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:23:53,035 [13   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:23:53,037 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:23:53,047 [13   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:23:53,253 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:23:53,262 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 212.6807ms
+INFO  2020-10-02 17:23:53,263 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:23:53,265 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 235.6512ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:24:22,132 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:24:22,135 [10   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:24:22,136 [10   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:24:22,139 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:24:22,144 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:24:22,161 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:24:22,165 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 18.9897ms
+INFO  2020-10-02 17:24:22,168 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:24:22,171 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 38.2593ms 200 application/json; charset=utf-8
+DEBUG 2020-10-02 17:24:36,560 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-10-02 17:24:36,610 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-10-02 17:24:36,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.Web.Host.Startup.AssignmentWebHostModule, Assignment.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentWebCoreModule, Assignment.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentApplicationModule, Assignment.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.AssignmentCoreModule, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Assignment.EntityFrameworkCore.AssignmentEntityFrameworkModule, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:36,629 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-10-02 17:24:36,686 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:24:36,686 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:24:36,686 [1    ] o.Configuration.LanguageManagementConfig - Converted Assignment (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:24:36,686 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-10-02 17:24:37,001 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: Assignment.EntityFrameworkCore.AssignmentDbContext, Assignment.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-10-02 17:24:37,716 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-10-02 17:24:37,739 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-10-02 17:24:37,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-10-02 17:24:37,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Assignment
+DEBUG 2020-10-02 17:24:37,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-10-02 17:24:37,913 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-10-02 17:24:38,014 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[Assignment.MultiTenancy.Tenant, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Assignment.Authorization.Users.User, Assignment.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-10-02 17:24:38,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2020-10-02 17:24:38,052 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-10-02 17:24:38,057 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.CreateUserDto
+DEBUG 2020-10-02 17:24:38,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Users.Dto.UserDto
+DEBUG 2020-10-02 17:24:38,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-10-02 17:24:38,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-10-02 17:24:38,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.Roles.Dto.PermissionDto
+DEBUG 2020-10-02 17:24:38,058 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-10-02 17:24:38,059 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Assignment.MultiTenancy.Dto.TenantDto
+INFO  2020-10-02 17:24:39,915 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-10-02 17:24:40,134 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Rameez Raja\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-10-02 17:24:40,193 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-10-02 17:24:40,261 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:24:42,955 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Assignment.Web.Host.Controllers.HomeController (Assignment.Web.Host).
+INFO  2020-10-02 17:24:43,916 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-10-02 17:24:43,923 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host) in 962.2617ms
+INFO  2020-10-02 17:24:43,926 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.HomeController.Index (Assignment.Web.Host)'
+INFO  2020-10-02 17:24:43,937 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3746.3884ms 302 
+INFO  2020-10-02 17:24:43,939 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-10-02 17:24:44,008 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.5183ms 200 text/html;charset=utf-8
+INFO  2020-10-02 17:24:44,027 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-10-02 17:24:44,028 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-10-02 17:24:44,034 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-10-02 17:24:44,035 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-10-02 17:24:44,040 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.728ms 304 application/javascript
+INFO  2020-10-02 17:24:44,042 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.6926ms 304 application/javascript
+INFO  2020-10-02 17:24:44,090 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-10-02 17:24:44,125 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-10-02 17:24:44,215 [5    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:24:44,215 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:24:44,220 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:24:44,220 [5    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:24:44,222 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:24:44,228 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller Assignment.Web.Host.Controllers.AntiForgeryController (Assignment.Web.Host).
+INFO  2020-10-02 17:24:44,249 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:24:44,293 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host) in 62.3988ms
+INFO  2020-10-02 17:24:44,294 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Web.Host.Controllers.AntiForgeryController.SetCookie (Assignment.Web.Host)'
+INFO  2020-10-02 17:24:44,295 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 205.6723ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:24:44,318 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.3052ms 200 application/json;charset=utf-8
+INFO  2020-10-02 17:24:52,530 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:24:52,534 [11   ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:24:52,536 [11   ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:24:52,538 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:24:52,548 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:24:52,764 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:24:52,775 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 225.3162ms
+INFO  2020-10-02 17:24:52,777 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:24:52,779 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 249.4778ms 200 application/json; charset=utf-8
+INFO  2020-10-02 17:25:28,155 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/Sensors/deployed  
+INFO  2020-10-02 17:25:28,158 [4    ] uthentication.JwtBearer.JwtBearerHandler - Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+INFO  2020-10-02 17:25:28,160 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+INFO  2020-10-02 17:25:28,161 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:25:28,166 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetDeployedSensors", controller = "Sensors", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Assignment.Controllers.SensorsController+Output]] GetDeployedSensors() on controller Assignment.Controllers.SensorsController (Assignment.Web.Core).
+INFO  2020-10-02 17:25:28,182 [12   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-10-02 17:25:28,185 [12   ] c.Infrastructure.ControllerActionInvoker - Executed action Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core) in 16.5162ms
+INFO  2020-10-02 17:25:28,187 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Assignment.Controllers.SensorsController.GetDeployedSensors (Assignment.Web.Core)'
+INFO  2020-10-02 17:25:28,189 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.2281ms 200 application/json; charset=utf-8
